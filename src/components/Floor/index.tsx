@@ -1,9 +1,7 @@
-import { Image } from 'react-native'
+import { View } from 'react-native'
 import Matter from 'matter-js'
 
 import { styles } from './styles'
-
-import BIRD from '../../assets/images/bird.png'
 
 const Floor = props => {
   const widthBody = props.body.bounds.max.x - props.body.bounds.min.x
@@ -15,8 +13,7 @@ const Floor = props => {
   const color = props.color
 
   return (
-    <Image
-      source={BIRD}
+    <View
       style={
         styles({
           widthBody,
