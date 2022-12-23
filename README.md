@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Flappy Bird App Game" title="Flappy Bird App Game" src="https://github.com/vagnernerves/be-the-hero/blob/master/frontend/src/assets/bethehero_logo.png" />
+  <img alt="Flappy Bird App Game" title="Flappy Bird App Game" src="./src/assets/images/logo.png" />
 </h1>
 
 🚧 Project under construction 🚧
