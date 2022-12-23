@@ -2,7 +2,7 @@
   <img alt="Flappy Bird App Game" title="Flappy Bird App Game" src="./src/assets/images/logo.png" />
 </h1>
 
-🚧 Project under construction 🚧
+Developed the Flappy Bird Game project with React Native, where you have to make the bird pass through obstacles.
 
 ## 🎨 Layout
 
@@ -21,7 +21,7 @@ Describe what you learned and implemented in the project. -->
 ## 💡 Technologies used
 
 - [x] [Expo](https://docs.expo.dev/)
-- [x] [React Native](https://reactnative.dev/)
+- [x] React Native
 - [x] TypeScrit
 - [x] [SplashScreen](https://docs.expo.dev/versions/latest/sdk/splash-screen/)
 - [x] [React Native Game Engine](https://github.com/bberak/react-native-game-engine)
