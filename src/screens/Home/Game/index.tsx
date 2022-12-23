@@ -4,6 +4,7 @@ import { GameEngine } from 'react-native-game-engine'
 import { styles } from './styles'
 
 import { Start } from './Start'
+import { GameOver } from './GameOver'
 import { Physics } from '../../../utils/physics'
 
 import entities from '../../../entities'
@@ -41,7 +42,7 @@ const Game = () => {
     return <Start handleOnStartGame={handleOnStartGame} />
   }
   if (!isRunning && isGameOver) {
-    return <Start handleOnStartGame={handleOnStartGame} />
+    return <GameOver handlebackToStart={handlebackToStart} />
   }
 
   return (
