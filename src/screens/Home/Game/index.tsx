@@ -9,26 +9,48 @@ import { Physics } from '../../../utils/physics'
 import entities from '../../../entities'
 
 const Game = () => {
-  const [running, setIsRunning] = useState(false)
+  const [isRunning, setIsRunning] = useState(false)
+  const [isGameOver, setIsGameOver] = useState(false)
 
   const gameEngineRef = useRef()
 
-  useEffect(() => {
-    setIsRunning(true)
-  }, [])
-
-  const handleOnStartGame = () => {
-    //TODO:
+  const handlebackToStart = () => {
+    setIsRunning(false)
+    setIsGameOver(false)
   }
 
-  //return <Start handleOnStartGame={handleOnStartGame} />
+  const handleOnStartGame = () => {
+    setIsRunning(true)
+    setIsGameOver(false)
+  }
+
+  const handleOnGameOver = () => {
+    setIsRunning(false)
+    setIsGameOver(true)
+  }
+
+  const handleOnEvent = event => {
+    switch (event.type) {
+      case 'game_over':
+        handleOnGameOver()
+        break
+    }
+  }
+
+  if (!isRunning && !isGameOver) {
+    return <Start handleOnStartGame={handleOnStartGame} />
+  }
+  if (!isRunning && isGameOver) {
+    return <Start handleOnStartGame={handleOnStartGame} />
+  }
 
   return (
     <GameEngine
       systems={[Physics]}
       ref={gameEngineRef}
-      running={running}
+      running={isRunning}
       entities={entities()}
+      onEvent={handleOnEvent}
       style={styles.engineContainer}
     />
   )
