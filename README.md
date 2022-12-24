@@ -10,10 +10,15 @@ Layout developed by [Catapulta Club](https://www.catapulta.dev/)
 
 [![Layout in Figma](https://github.com/VagnerNerves/default-readme/blob/main/assets/layout-in-figma.svg)](https://www.figma.com/file/hhwWzuVv21S4nP9owaXGOm/Flappy-Bird?node-id=1%3A3&t=esEwYH8FnCFcuaTs-1)
 
-<!-- ## 🎥 Implementation Video
+ ## 🎥 Implementation Video
 
-In the GitHub edit, drag the video that it already puts on github itself.
 
+
+https://user-images.githubusercontent.com/40831841/209418326-f116103d-0677-4e4d-941c-5b74465fdd05.mp4
+
+
+
+<!--
 ## 👏 Learning and more implementations
 
 Describe what you learned and implemented in the project. -->
