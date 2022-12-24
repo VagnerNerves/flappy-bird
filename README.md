@@ -6,7 +6,7 @@ Developed the Flappy Bird Game project with React Native, where you have to make
 
 ## 🎨 Layout
 
-Layout developed by [Catapulta Club](https://www.catapulta.dev/)
+Layout developed by [Catapulta](https://www.catapulta.dev/)
 
 [![Layout in Figma](https://github.com/VagnerNerves/default-readme/blob/main/assets/layout-in-figma.svg)](https://www.figma.com/file/hhwWzuVv21S4nP9owaXGOm/Flappy-Bird?node-id=1%3A3&t=esEwYH8FnCFcuaTs-1)
 
